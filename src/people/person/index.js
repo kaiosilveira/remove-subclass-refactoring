@@ -1,5 +1,3 @@
-import { Male } from '../male';
-
 export class Person {
   constructor(name, genderCode) {
     this._name = name;
@@ -15,6 +13,6 @@ export class Person {
   }
 
   get isMale() {
-    return this instanceof Male;
+    return this.genderCode === 'M';
   }
 }
