@@ -10,3 +10,7 @@ const people = loadFromInput([
 const numberOfMales = people.filter(p => p instanceof Male).length;
 
 console.log(`Number of males: ${numberOfMales}`);
+
+export function isMale(person) {
+  return person instanceof Male;
+}
