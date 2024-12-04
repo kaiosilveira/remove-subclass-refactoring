@@ -1,6 +1,4 @@
-import { Female } from '../female/index.js';
-import { Male } from '../male/index.js';
-import { Person } from '../person/index.js';
+import { createPerson } from '../factory';
 
 export function loadFromInput(data) {
   const result = [];
