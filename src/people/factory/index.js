@@ -7,6 +7,6 @@ export function createPerson(aRecord) {
     case 'F':
       return new Person(aRecord.name, 'F');
     default:
-      return new Person(aRecord.name);
+      return new Person(aRecord.name, 'X');
   }
 }
